@@ -1,0 +1,6 @@
+set terminal push
+set terminal pngcairo $1
+set output "$0.png"
+replot
+set output
+set terminal pop
